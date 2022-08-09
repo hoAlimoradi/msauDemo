@@ -1,0 +1,11 @@
+framework module cryptography {
+  umbrella header "cryptography.h"
+
+  export *
+  module * { export * }
+}
+
+module cryptography.Swift {
+    header "cryptography-Swift.h"
+    requires objc
+}
